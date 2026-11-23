@@ -1,0 +1,15 @@
+[tool.ruff]
+line-length = 160
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["B008", "E741", "E501", "UP046", "UP047"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E402"]
+"alembic/*" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore:Dialect sqlite"]
