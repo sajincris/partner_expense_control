@@ -48,9 +48,12 @@ people's heads), and weak on control (no reliable record of who approved what, o
 
 ## Screenshots
 
-| | |
+| Plan vs actual dashboard | Exception queue |
 |---|---|
 | ![Plan vs actual dashboard](docs/screenshots/dashboard.png) | ![Exception queue](docs/screenshots/exception-queue.png) |
+
+| Finance validation | Expense report |
+|---|---|
 | ![Finance validation](docs/screenshots/finance-review.png) | ![Expense report](docs/screenshots/report-detail.png) |
 
 
