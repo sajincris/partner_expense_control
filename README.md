@@ -53,7 +53,6 @@ people's heads), and weak on control (no reliable record of who approved what, o
 | ![Plan vs actual dashboard](docs/screenshots/dashboard.png) | ![Exception queue](docs/screenshots/exception-queue.png) |
 | ![Finance validation](docs/screenshots/finance-review.png) | ![Expense report](docs/screenshots/report-detail.png) |
 
-*Placeholders — run the demo and capture the four screens into `docs/screenshots/`.*
 
 ## Architecture
 
@@ -86,8 +85,8 @@ plan: [docs/project-plan.md](docs/project-plan.md)
 ### Option A — Docker (recommended)
 
 ```bash
-git clone https://github.com/<your-github-user>/partner-expense-control-erp.git
-cd partner-expense-control-erp
+git clone https://github.com/sajincris/partner_expense_control.git
+cd partner_expense_control
 docker compose up --build
 ```
 
